@@ -11,7 +11,10 @@ class Program
 
         string nome = "Patrick";
         string nome2 ="Caua";
+        int number1 = 2;
+        int number2 = 5;
         Console.WriteLine(nome);
+        Console.WriteLine(number1 + number2);
 
         if (nome2 == "Patrick")
         {
@@ -21,5 +24,6 @@ class Program
             {
                 Console.WriteLine(nome2);
             }
+
     }
 } 
